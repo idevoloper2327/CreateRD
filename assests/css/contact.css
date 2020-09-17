@@ -1,0 +1,141 @@
+/* ------------------------- */
+/* MENU */
+/* ------------------------- */
+
+.menu-C{
+    background-color: rgba(255, 255, 255, 0.973);
+    color: black;
+    box-shadow: 0 4px 8px 0 #273f638e;
+
+}
+
+.menu-C .navbar-nav .nav-link{
+    color: black;
+}
+.menu-C .navbar-nav .active{
+    color: black !important;
+}
+
+/* ------------------------- */
+/* Formulario*/
+/* ------------------------- */
+.form-header{
+    position: relative;
+
+    width: 100%;
+    top: -45px;
+    padding: 20px;
+    color: white;
+    background-color: #9c2a2a;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 0 #273f638e;
+}
+.formulario-contact{
+    height: auto;
+    width: 100%;
+    box-shadow: 0 6px 12px 0 #273f638e;
+    position: relative;
+}
+
+.wrapper {
+   padding: 25px 15px 25px 15px; 
+}
+
+.wrapper .input-data {
+    position: relative;
+}
+.wrapper .input-data .inputs-c{
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+    outline: none;
+}
+
+.input-data .inputs-c:focus ~ label,
+.input-data .inputs-c:valid ~ label
+{
+
+    transform: translateY(-20px);
+    font-size: 12px;
+    color: #273f63;
+}
+
+.wrapper .input-data label{
+    position: absolute;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.4s ease;
+}
+
+.wrapper .input-data .underline{
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+ 
+}
+.wrapper .input-data .Area{
+    bottom: 6px;
+}
+.input-data .underline::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    left: 0;
+    background-color: #273f63;
+    transition: all 0.4s ease;
+
+    transform: scaleX(0);
+}
+
+.input-data .inputs-c:focus + .underline::before,
+.input-data .inputs-c:valid + .underline::before
+{
+
+    transform: scaleX(1);
+}
+
+.fas-map{
+
+    padding: 25px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.39);
+    color: white;
+    background-color: #9c2a2a;
+}
+
+.btn-enviar{
+    color: white;
+    background-color:#273f63;
+}
+
+.map-container-section{
+    box-shadow: 0 4px 8px 0 #273f638e;
+
+}
+
+
+
+
+
+
+
+
+ .map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

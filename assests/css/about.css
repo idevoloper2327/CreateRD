@@ -1,0 +1,40 @@
+/* ------------------------- */
+/* MENU */
+/* ------------------------- */
+
+.menu-A{
+    background-color: rgba(255, 255, 255, 0.973);
+    color: black;
+    box-shadow: 0 4px 8px 0 #273f638e;
+
+}
+
+.menu-A .navbar-nav .nav-link{
+    color: black;
+}
+.menu-A .navbar-nav .active{
+    color: black !important;
+}
+
+
+/* ------------------------- */
+/* about-content */
+/* ------------------------- */
+
+.about-content{
+    background: rgba(228, 228, 228, 0.534);
+    height: 100%;
+}
+
+.about-info{
+    box-shadow: 0 6px 10px 0 rgba(44, 44, 44, 0.445);
+}
+.card-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre{
+    color: #9c2a2a;
+}
