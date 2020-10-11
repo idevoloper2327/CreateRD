@@ -18,7 +18,7 @@ function scrollFunction() {
 var prevScrollpos = window.pageYOffset;
 
 window.onscroll = function() {
-  if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
+  if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0){
     var currentScrollPos = window.pageYOffset;
 
     if (prevScrollpos > currentScrollPos) {
@@ -47,26 +47,10 @@ window.onscroll = function() {
 
       x = document.querySelectorAll(".nav-link-menu");
       for (i = 0; i < x.length; i++) {
-        x[i].style.color = "white";
+        x[i].style.color = "#273f63";
       }
      
       
   }
 }
-
-
-/*
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("menu").style.top = "0";
-  } else {
-    document.getElementById("menu").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}*/
-
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-
 
