@@ -18,7 +18,7 @@ function scrollFunction() {
 var prevScrollpos = window.pageYOffset;
 
 window.onscroll = function() {
-  if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
+  if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0){
     var currentScrollPos = window.pageYOffset;
 
     if (prevScrollpos > currentScrollPos) {
@@ -47,7 +47,7 @@ window.onscroll = function() {
 
       x = document.querySelectorAll(".nav-link-menu");
       for (i = 0; i < x.length; i++) {
-        x[i].style.color = "white";
+        x[i].style.color = "#273f63";
       }
      
       
