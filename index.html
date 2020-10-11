@@ -15,16 +15,16 @@
         <script src="https://kit.fontawesome.com/f82550333a.js" crossorigin="anonymous"></script>
         <!--Scripts main-->
         <script src="./assests/js/main.js"></script>
-        <title>Create</title>
+        <title>CreateRD</title>
     </head>
     <body>
         <header id="menu" class="menu ">
             <nav class=" navbar  navbar-expand-md">
                 <a class="navbar-brand"  href="./index">
-                    <img src="./assests/img/c.png" height="30"  class="" alt="Create" loading="lazy">
+                    <img src="./assests/img/c.png" height="30"  class="logo" alt="Create" loading="lazy">
                 </a>
                 <button class="navbar-toggler navbar-dark bg-color" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon  "></span>
+                    <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div id="nav-link-M" class="navbar-nav">
@@ -43,29 +43,42 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
+      
             <div class="carousel-inner" role="listbox">
             <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('./assests/img/slider1.png')">
+                <div class="carousel-item active" >
+                    <img loading="lazy" class="d-block w-100" src="./assests/img/slider.jpg" alt="Second slide">
+
+                    <!--
                     <div class="carousel-caption ">
                         <h2 class="display-4">First Slide</h2>
                         <p class="lead">This is a description for the first slide.</p>
                     </div>
+                    -->
                 </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('./assests/img/slider2.png')">
+                <div class="carousel-item" <!--style="background-image: url('./assests/img/slider1.png')"-->
+                    <img loading="lazy" class="d-block w-100" src="./assests/img/slider1.png" alt="Second slide">
+                    <!--
                     <div class="carousel-caption ">
                         <h2 class="display-4">Second Slide</h2>
                         <p class="lead">This is a description for the second slide.</p>
                     </div>
+                    -->
                 </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('./assests/img/slider2.png')">
+                <div class="carousel-item" <!--style="background-image: url('./assests/img/slider2.png')"-->
+                    <img loading="lazy" class="d-block w-100" src="./assests/img/slider2.png" alt="Second slide">
+                    
+                    <!--
                     <div class="carousel-caption ">
                         <h2 class="display-4">Third Slide</h2>
                         <p class="lead">This is a description for the third slide.</p>
                     </div>
+                    -->
                 </div>
             </div>
+            
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -80,61 +93,47 @@
             <div class="contenedor-card  row">
                 <div class="info-cadrs  col-lg-10">
                     <h3 class=" text-uppercase">Nuestros Servicios</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quos magnam iure deserunt quae dicta atque? Optio eaque magnam ut reprehenderit. Necessitatibus ipsa nihil neque, ullam recusandae incidunt nemo eius.</p>
+                    <p></p>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="D col-lg-3 col-md-6 col-sm-12">
                     <div class=" card" >
-                        
-                        <!--<img src="https://image.flaticon.com/icons/svg/1540/1540013.svg" width="350" height="220" class="card-img-top " alt="...">-->
-                        <img src="./assests/img/servisio_impresion.jpg" width="300" height="300" class="card-img-top " alt="...">
                         <div class=" card-body">
+                            <img loading="lazy" src="./assests/img/servisio_impresion.jpg" class="img-servicios card-img" alt="...">
                             <h5 class="card-title">Impresión</h5>
                             <p class="card-text">En CREATE nuestra prioridad es que nuestros servicios estén realizados con la mayor calidad y brevedad, aquí nos acomodamos al cliente haciendo que su experiencia con nosotros sea la mejor.</p>
-                            <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card" >
-                        <!--<img src="https://image.flaticon.com/icons/svg/1643/1643995.svg"width="350" height="220" class="card-img-top" alt="...">-->
-                        <img src="./assests/img/servisio_diseño_grafico.jpg" width="300" height="300" class="card-img-top " alt="...">
-                                                
                         <div class="animate__bounceInUp card-body">
-                        <h5 class="card-title">Diseño Grafico</h5>
-                        <p class="card-text">Convertimos tu proyecto en algo especial. Contrata nuestros servicios de diseño gráfico para tu identidad corporativa o dossieres y catálogos.</p>
-                        
+                            <img loading="lazy" src="./assests/img/servisio_diseño_grafico.jpg" class="img-servicios card-img" alt="...">
+                            <h5 class="card-title">Diseño Grafico</h5>
+                            <p class="card-text">Convertimos tu proyecto en algo especial. Contrata nuestros servicios de diseño gráfico para tu identidad corporativa o dossieres y catálogos.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card" >
-                        <!--<img src="https://image.flaticon.com/icons/svg/2132/2132297.svg" width="350" height="220" class="card-img-top" alt="...">-->
-                        <img src="./assests/img/servisio_soporte_de_redes.jpg" width="300" height="300" class="card-img-top " alt="...">
-                        
                         <div class="card-body">
-                        <h5 class="card-title">Soporte de Redes Sociales</h5>
-                        <p class="card-text">¿Sabias que el más del 65% de la población en todo el mundo, antes de visitar tu establecimiento o adquirir un producto visita tu sitio web o redes sociales? En CREATE creamos la presencia de tu negocio o productos en las redes sociales.</p>
-                        
+                            <img loading="lazy" src="./assests/img/servisio_soporte_de_redes.jpg" class="img-servicios card-img" alt="...">
+                            <h5 class="card-title">Soporte de Redes Sociales</h5>
+                            <p class="card-text">¿Sabias que el más del 65% de la población en todo el mundo, antes de visitar tu establecimiento o adquirir un producto visita tu sitio web o redes sociales? En CREATE creamos la presencia de tu negocio o productos en las redes sociales.</p> 
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card" >
-                        <!--                        <img src="https://image.flaticon.com/icons/svg/2554/2554327.svg" width="350" height="220" class="card-img-top" alt="...">-->
-                        <img src="./assests/img/servicio_Sesión_fotográfica.jpg" width="300" height="300" class="card-img-top " alt="...">
-
                         <div class="card-body">
-                        <h5 class="card-title">Servicio Fotografíco</h5>
-                        <p class="card-text">Hemos creado un nuevo concepto de sesión fotográfica, nos tomamos el tiempo necesario para lograr un ambiente artístico, agradable y confortable logrando así que los bebes, niños, embarazadas y la familia en general entreguen un momento espontáneo, natural y casual, donde la presencia de un lente se haga imperceptible.</p>
-                        
+                            <img loading="lazy" src="./assests/img/servicio_Sesión_fotográfica.jpg" class="img-servicios card-img" alt="...">
+                            <h5 class="card-title">Servicio Fotografíco</h5>
+                            <p class="card-text">Hemos creado un nuevo concepto de sesión fotográfica, nos tomamos el tiempo necesario para lograr un ambiente artístico, agradable y confortable logrando así que los bebes, niños, embarazadas y la familia en general entreguen un momento espontáneo, natural y casual, donde la presencia de un lente se haga imperceptible.</p> 
                         </div>
                     </div>
                 </div>
             </div>        
         </section>
 
-        
- 
         <section id="about" class=" contenedor-nosotros">
             <div class="container">
                 <div class="contenedor-card row">
@@ -143,7 +142,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div>
-                            <img src="https://image.flaticon.com/icons/svg/476/476863.svg" alt="">
+                            <img loading="lazy" src="https://image.flaticon.com/icons/svg/476/476863.svg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-6">
@@ -164,8 +163,8 @@
         </section>
         
         <section id="contact" class="contenedor-contact ">
-            <div class="contenedor-card  card-contact" width='300' height='200' style="background-image: url('./assests/img/contactanos1.png')">
-                <div class=" ">
+            <div class="contenedor-card  card-contact"  width='300' height='200' style="background-image: url('./assests/img/contactanos1.png')">
+                <div class="">
                     <h3 class=" text-uppercase">¡Contáctanos y haz tu cotización!</h3>
                     <p>Somos tu mejor opción</p>
                     <a href="./Contact" class="btn btn-azul">Contactar</a>
@@ -200,7 +199,7 @@
 
             <!-- Copyright -->
             <div class="footer-copyright text-center py-3">
-                Create &copy; 2020
+                CreateRD &copy; 2020
             </div>
         </footer>
 
