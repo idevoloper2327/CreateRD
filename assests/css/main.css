@@ -43,6 +43,7 @@
     top: 0;
     z-index: 25;
     transition: 0.5s;
+ 
 }
 .bg-color{
     background-color: #273f63;
@@ -53,7 +54,7 @@
 }
 
 .menu .navbar-nav .nav-link {
-    color: #273f63;
+    color: #000000;
     padding: 0;
     margin: 0 25px 0 25px;
     font-size: 1.2em;
@@ -101,6 +102,23 @@
 /* CAROUSEL */
 /* ------------------------- */
 
+
+
+.item{
+    height: 100%;
+    width: 100%;
+    top: 0;
+
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+/* ------------------------- */
+/* CAROUSEL */
+/* ------------------------- */
+
 .carousel{
     height: 100%;
     width: 100%;
@@ -123,11 +141,13 @@
 .carousel-inner .carousel-item {
     animation: zoom-out 5s linear infinite !important;
 }
+
 @keyframes zoom-out{
     100%{
         width: 100%;
     }
 }
+
 .Caption{
     animation: textup 12s linear infinite !important;
     transform: translateY(0px) !important;
@@ -156,12 +176,12 @@
 }
 
 .info-cadrs{
-    padding-top: 5%;
+    padding-top: 8%;
     text-align: center;
 }
 
 .card{
-    margin: 25px 0 25px 0;
+    margin: 20px 0 25px 0;
     border: none;
     text-align: center;
 }
