@@ -38,12 +38,6 @@
     transition: 0.3s;
 }
 
-.card-projects:hover {
-    /*cursor: pointer;
-    box-shadow: 0 12px 24px 0 rgba(1, 49, 207, 0.801);
-    background-image:  rgba(97, 96, 96, 0.397);*/
-}
-
 .card-img-overlay{
     position: absolute;
     display: flex;
@@ -62,4 +56,12 @@
 .card-title-P{
     font-size: 9vmin;
     color: white;
+}
+
+
+
+
+.carousel{
+    height: 92.5%;
+    
 }
