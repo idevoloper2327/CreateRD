@@ -1,0 +1,278 @@
+.btn-azul{
+    background-color: #273f63;
+    color: white;
+}
+.btn-azul:hover{
+    background-color: #1b2a42;
+    color: white;
+}
+.cre{
+    color: #9c2a2a;
+}
+
+.ate{
+    color: #273f63;
+}
+.cre1{
+    color: white;
+    background-color: #9c2a2a;
+    padding:  0px 1px 0px 8px;
+ 
+}
+
+.ate1{
+    color: white;
+    background-color: #273f63;
+    padding: 0px 8px 0px 0px;
+    
+}
+
+
+/* ------------------------- */
+/* MENU */
+/* ------------------------- */
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    z-index: 25;
+    transition: 0.5s;
+ 
+}
+.bg-color{
+    background-color: #273f63;
+}
+
+.menu .collapse{
+    padding: 0 0 0 75px;
+}
+
+.menu .navbar-nav .nav-link {
+    color: #000000;
+    padding: 0;
+    margin: 0 25px 0 25px;
+    font-size: 1.2em;
+}
+
+.menu .collapse .navbar-nav .active{
+    border-bottom: 2px solid #9c2a2a;
+}
+
+.menu .collapse .navbar-nav .nav-link:hover{
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid #9c2a2a;
+}
+
+@media screen and (max-width: 767px){
+
+    .menu{
+        display: block;
+        /*justify-content: start;*/
+        /*align-items: flex-start;*/
+        /*width: 100%;*/
+        /*position: relative;*/
+        /*z-index: 0;*/
+        /*background-color: rgb(97, 134, 255);*/
+    }
+
+    .logo{
+        height: 20px;
+    }
+
+    .menu .collapse{
+        padding: 0;  
+    }
+
+    .menu .navbar-nav .nav-link {
+        padding: 0;
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+}
+
+/* ------------------------- */
+/* CAROUSEL */
+/* ------------------------- */
+
+
+
+.item{
+    height: 100%;
+    width: 100%;
+    top: 0;
+
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+/* ------------------------- */
+/* CAROUSEL */
+/* ------------------------- */
+
+.carousel{
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+/*
+.carousel-item{
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+*/
+
+
+
+/*
+.carousel-inner .carousel-item {
+    animation: zoom-out 5s linear infinite !important;
+}
+
+@keyframes zoom-out{
+    100%{
+        width: 100%;
+    }
+}
+
+.Caption{
+    animation: textup 12s linear infinite !important;
+    transform: translateY(0px) !important;
+}
+@keyframes textup{
+    10%{
+        transform: translateY(0px) !important;
+    }100%{
+        transform: translateY(0px) !important;
+    }
+}
+*/
+
+/* ------------------------- */
+/* Contenedor Card*/
+/* ------------------------- */
+.contenedor{
+    margin: 0 5% 0 5%;    
+}
+
+.contenedor-card{
+    justify-content: center;
+    height: 100%;
+    border-radius: 0%;
+    
+}
+
+.info-cadrs{
+    padding-top: 8%;
+    text-align: center;
+}
+
+.card{
+    margin: 20px 0 25px 0;
+    border: none;
+    text-align: center;
+}
+
+.img-servicios{
+    margin: 25px 0 25px 0;
+}
+@media screen and (max-width: 767px){
+    .img-servicios{
+        max-width: 550px;
+    }
+    .D{
+        max-width: 550px;
+    }
+}
+
+/* ------------------------- */
+/* Contenedor nosotros*/
+/* ------------------------- */
+.contenedor-nosotros{
+    background: rgba(243, 243, 243, 0.849);
+}
+.card-body-us{
+    background: rgba(243, 243, 243, 0.849);
+    padding: 25px;
+}
+
+/* ------------------------- */
+/* Contenedor Contact*/
+/* ------------------------- */
+.contenedor-contact{
+    color: white;
+    height: 77.71vh;  
+    
+}
+
+.card-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+/* ------------------------- */
+/* Footer*/
+/* ------------------------- */
+
+footer {
+    /*background-color: rgb(1, 49, 207);*/
+    background-color: #273f63;
+    color: white;
+    width: 100%;
+
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fab{
+    color: white;
+}
+.fb-ic:hover{
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    background-color: #067AEA;   
+}
+.fb-ic{
+    padding: 0 2px 0 2px;   
+}
+.tw-ic:hover{
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    background-color: #00acee;
+}
+.ins-ic:hover{
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    background-color: #e42626;
+}
+.what-ic:hover{
+    border-radius: 50%;
+    color: white;
+    background-color: #4AC959;
+    cursor: pointer;
+}
