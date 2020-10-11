@@ -4,19 +4,6 @@
 window.onscroll = function() {scrollFunction()};
 window.onscrollc= function() {scrollFunction()};
 
-
-/*
-function scrollFunction() {
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-      document.getElementById("menu").style.background = "black";
-      //document.getElementById("logo").style.fontSize = "25px";
-    } else {
-      document.getElementById("menu").style.background = "rgba(255, 248, 248, 0)";
-      //document.getElementById("logo").style.fontSize = "35px";
-    }
-}
-*/
-
 var prevScrollpos = window.pageYOffset;
 
 
